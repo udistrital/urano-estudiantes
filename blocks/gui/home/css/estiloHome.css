@@ -1,0 +1,209 @@
+
+.panel-body {
+    padding: 0;
+}
+
+#datos-user {
+	background-color: #f8f8f8;
+}
+
+.formulario {
+	position: relative;
+}
+
+.container {
+	position: relative;
+}
+
+#table-datos {
+	width: auto;
+	font-family: Arial;
+	margin: 0 auto;
+}
+
+.usuario {
+	width: 180px;
+}
+
+@media (max-width: 570px) {
+	.foto-user, .usuario {
+		display: none !important;
+	}
+}
+
+table#table-datos caption { 
+  font-size: 2rem; color: #444;
+  margin: 1rem;
+  text-align: center;
+}
+
+.tipo-info {
+	white-space: nowrap;
+ 	width: 1px;
+	font-weight: bold;
+ 	text-align: left;
+ 	padding-bottom: 5px;
+}
+
+.info-user {
+	white-space: nowrap;
+ 	width: 1px;
+ 	padding-left: 5px;
+ 	padding-bottom: 5px;
+}
+
+legend {
+	border: medium none;
+    width: auto !important;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    padding-right: 10px;
+    padding-left: 2px;
+}
+
+.icon-titulo {
+	font-size: 24px;
+	margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.nombre {
+	text-align: center;
+}
+
+#foto-perfil {
+	border-radius: 3px;
+	cursor: pointer;
+	width: 170px;
+	height: 140px;
+}
+
+titu {
+	font-size: 36px;
+	font-family: Arial;
+	margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.glyphicon {
+	margin-right: 4px !important; /*override*/
+}
+
+.pagination .glyphicon {
+	margin-right: 0px !important; /*override*/
+}
+
+.pagination a {
+	color: #555;
+}
+
+.panel ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.news-item {
+	padding: 4px 4px;
+	margin: 0px;
+	border-bottom: 1px dotted #555;
+}
+
+#foto-noti {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	box-shadow: 0 0 6px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 6px rgba(0, 0, 0, .8);
+}
+
+
+a:link {
+	color: #0040ED;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #0040ED;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+a:active {
+	text-decoration: none;
+	color: #0040ED;
+}
+
+#enlacetitulo {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1;
+	text-align: center;
+	margin-top: 5px;
+	border: none;
+	font-weight: bold;
+	color: #333;
+}
+
+#enlaceinterno {
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	border: none;
+}
+
+#texto {
+	color: #333333;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.1;
+	text-align: justify;
+	margin-top: 5px;
+}
+
+#fecha {
+	text-align: right;
+	font-size: 13px;
+}
+
+table {
+	width: 100%;
+}
+
+.panel-bodyee {
+	background-image: url("../images/fondo_escudo_titulo2.png");
+}
+
+.panel-heading {
+	padding: 1px 15px;
+}
+
+.td-izq {
+	width: 16%;
+	padding-left: 5px;
+    padding-right: 5px;
+}
+
+.td-der {
+	padding-left: 10px;
+    padding-right: 2px;
+    padding-top: 2px;
+}
+
+li.news-item {
+	cursor: pointer;
+}
+
+

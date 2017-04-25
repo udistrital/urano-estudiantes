@@ -1,0 +1,305 @@
+/*!
+ * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+  /*padding-top: 130px;*/
+  /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.icon-bar {
+  background-color: #fff;
+}
+footer {
+  /*background-color: #0095dd;*/
+  color: #000;
+}
+footer a {
+  color: #00008B;
+}
+.footer-logos > * > * > img {
+  /*background-color: #0095dd;*/
+  color: #eee;
+  padding: 30px;
+}
+.navbar {
+  background-color: #0095dd;
+  margin: 0px;
+}
+.navbar-header {
+  position: relative;
+}
+#imagenfondo {
+  /*background-image: url("../images/header.png");*/
+  /*background-color:rgba(0,0,0,0.55);*/
+  background-repeat: repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+  filter: blur(5px); 
+  -webkit-filter: blur(5px); 
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+}
+.navbar a {
+  color: #eee;
+}
+.navbar a:hover, .navbar a:focus {
+  color: #002211;
+}
+.open > a {
+  color: #0095dd;
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+  /*height: 110px;*/
+  /*background: url('http://placehold.it/1920x400') center center no-repeat scroll;*/
+  /*background-color: #eee;*/
+  color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.nameline {
+  /*text-shadow: 0 0 10px #555;*/
+  color: #eee;
+  text-align: right;
+}
+.titleline {
+  /*text-shadow: 0 0 10px #555;*/
+  font-size: 18px;
+  color: #eee;
+  text-align: right;
+}
+
+.notification {
+  font-size: 18px;
+  color: #eee;
+  text-align: right;
+}
+
+.closesession {
+  font-size: 15px;
+  color: #eee;
+  text-align: right;
+}
+.escudo {
+  max-width: 150px;
+}
+.profilepicture {
+  /*max-width: 200px;*/
+  margin-top: 10px;
+}
+.img-center {
+  margin: 0 auto;
+}
+footer {
+  margin: 50px 0;
+}
+
+/*#fb-root {
+  display: none;
+}*/
+
+
+/* To fill the container and nothing else */
+
+
+/*.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+  width: 100% !important;
+}*/
+
+
+/** Mega Menu **/
+
+.navbar-default {
+  color: #fff;
+  /*background-color: #ccc6c6;*/
+  background-color: transparent;
+  border-color: #aca1a2;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > .dropdown > a .caret {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+.menu-large {
+  position: static !important;
+}
+.megamenu {
+  padding: 20px 0px;
+  width: 100%;
+}
+.megamenu> li > ul {
+  padding: 0;
+  margin: 0;
+}
+.megamenu> li > ul > li {
+  list-style: none;
+}
+.megamenu> li > ul > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333333;
+  white-space: normal;
+}
+.megamenu> li ul > li > a:hover, .megamenu> li ul > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #f5f5f5;
+}
+.megamenu.disabled > a, .megamenu.disabled > a:hover, .megamenu.disabled > a:focus {
+  color: #999999;
+}
+.megamenu.disabled > a:hover, .megamenu.disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
+  cursor: not-allowed;
+}
+.megamenu.dropdown-header {
+  color: #428bca;
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .megamenu {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .megamenu> li {
+    margin-bottom: 30px;
+  }
+  .megamenu> li:last-child {
+    margin-bottom: 0;
+  }
+  .megamenu.dropdown-header {
+    padding: 3px 15px !important;
+  }
+  .navbar-nav .open .dropdown-menu .dropdown-header {
+    color: #fff;
+  }
+}
+
+/**End Mega Menu**/
+
+/**Quita CSS de SARA**/
+#marcoGeneral{
+	width: auto;
+	border: none;
+	padding: 0px 0px;
+}
+
+.img-responsive {
+    max-width: 90%;
+}
+
+h1, .h1 {
+    font-size: 28px;
+    margin-top: 18px;
+}
+
+h2, .h2, h3, .h3 {
+    margin-top: 12px;
+}
+
+.inline{
+	display: inline-block !important;
+}
+/**
+ * 	para los íconos de arriba
+ */
+.left-icon{
+	position: absolute;
+	z-index: 100;
+	height: 46px;
+	width: 46px;
+    max-height: 95px;
+}
+
+.left-icon > a > img{
+	width: 100%;
+	height: 100%;
+}
+.right-icon{
+	position: absolute;
+	z-index: 1000;
+	height: 50px;
+	width: 100px;
+    margin-right: 30px;
+    margin-top: 12px;
+}
+
+.right-icon>div{
+	display: inline;
+	padding-left:10px;
+}
+/*sm xs*/
+@media only screen and (max-width: 1170px){
+    .left-icon {
+        margin-top: 10px;
+    }
+}
+/*md*/
+@media only screen and (max-width: 1320px) and (min-width: 1170px){
+    .left-icon {
+        height: 46px;
+    }
+    .right-icon {
+        height: 50px;
+        margin-left: 10px;
+    }
+    .contenedor-menu{
+		padding-right: 50px;
+	}
+}
+/*lg*/
+@media only screen and (min-width: 1320px){
+    .left-icon {
+        margin-left: 25px;
+    }
+    .right-icon {
+    	
+    }
+    .contenedor-menu{
+		padding-right: 50px;
+	}
+}
+.botones-separados>a{
+	margin-left: 34px;
+}
+
+#menuPrincipal{
+	position: fixed;
+	top: 0;
+	z-index: 200;
+	width: 100%;
+	overflow: visible;
+	left: 0;
+}
+
+.freespace{
+	width: 100%;
+	height: 50px;
+}
+
+.contenedor-menu{
+	overflow: hidden;
+}

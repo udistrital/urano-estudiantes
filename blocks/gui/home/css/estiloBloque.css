@@ -1,0 +1,256 @@
+@import url('css/font-awesome.min.css');
+@import url('css/animate.css');
+
+body{
+	font-family: 'Maven Pro', sans-serif;
+    /*background: url(images/bg.jpg) no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+}
+
+
+a{
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    /*border: 1px solid #777;*/
+    color: #777;
+}
+
+a:hover{
+    color: #777;
+}
+
+button{
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.container2 {
+    width: 100%;
+}
+
+label {
+	float: left;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.bootstrap-datetimepicker-widget a[data-action] {
+    border: none;
+}
+
+.modal-backdrop {
+    background-color: #AD0000;
+}
+
+
+.modal-content{
+    float: left;
+    width: 100%;	
+}
+
+.modal-header {
+    background: #0A961A;
+    color: #FFF;
+    float: left;
+    width: 100%;
+}
+
+.modal-body {
+    float: left;
+    width: 100%;
+}
+
+.modal-footer {
+    float: left;
+    width: 100%;
+}
+
+#menu{
+    margin-top: 30px;
+}
+
+#days-chose{
+	display: none;
+}
+
+#days-list{
+    margin-top: 10px;
+    margin-bottom: 5px;	
+}
+
+#days-list .day-option{
+    display: inline-block;
+    width: 13.5%;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 2px 0px 3px 0px;
+}
+
+.active-day,.active-day:hover,.active-day:focus,.active-day:active{
+    border: 1px solid #EC901D;
+    background: #EC901D;
+    color: #fff;	
+}
+
+
+.error{
+    float: left;
+    width: 100%;
+    color: #F50000;	
+}
+
+
+#mynew{
+    /*margin-top: 30px;*/
+    width: 100%;
+    float: left;
+    background: #fff;
+    display: none;    
+}
+
+#tablaDia{
+    width: 100%;
+    float: left;
+}
+
+.td-time{
+    width: 40%;
+    text-align: center;    
+}
+
+
+#alert-error{
+    color: #fff;
+    background: #C31313;
+    position: absolute;
+    font-size: 18px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px 15px;
+    bottom: 15px;
+    right: 15px;
+    display: none;
+    z-index: 9999999;  
+}
+
+#mynew .btn-group-xs>.btn, .btn-xs {
+    padding: 0px 3px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 0px;
+    margin: 0 auto;
+}
+
+.nopadding{
+    padding: 0px;
+}
+
+.addinfo{
+    display: none;
+}
+
+.delinfo{
+    display: none;
+}
+
+
+.label-desc{
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 12px;
+    display: none;   
+}
+
+.purple-label{
+   background: #8452D4;
+   color: #FFF;
+}
+
+.red-label{
+   background: #D45252;
+   color: #FFF; 
+}
+
+.blue-label{
+  background: #52B6D4;
+  color: #FFF;    
+}
+
+.pink-label{
+  background: #D659AA;
+  color: #FFF;    
+}
+
+.green-label{
+    background: #46BD28;
+    color: #FFF;   
+}
+
+
+.purple2-label{
+   background: #b394e4;
+   color: #FFF;
+}
+
+.red2-label{
+   background: #df8282;
+   color: #FFF; 
+}
+
+.blue2-label{
+  background: #0095dd;
+  color: #FFF;    
+}
+
+.blue3-label{
+  background: #2d4373;
+  color: #FFF;    
+}
+
+.pink2-label{
+  background: #e89fce;
+  color: #FFF;    
+}
+
+.green2-label{
+    background: #1f980e;
+    color: #FFF;   
+}
+
+.orange{
+    background: #f1a81f;
+    color: #FFF;   
+}
+
+
+/**Quita CSS de SARA**/
+#marcoGeneral{
+	width: auto;
+	border: none;
+	padding: 0px 0px;
+}
+
+#label_ahora {
+	display: block;
+	background-color: #FF9800;
+	font-size: 90%;
+	padding-top: 0.5em;
+    padding-bottom: 0.5em;
+	width: 50%;
+	margin-left:25%
+}

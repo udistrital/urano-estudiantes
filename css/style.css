@@ -1,0 +1,90 @@
+.fxfamilynav-header.dark #tabudistrital::before {
+  background-color: #0c99d5;
+}
+#tabudistrital::before {
+  background-color: #0c99d5;
+}
+#tabudistrital::before {
+  background-color: transparent;
+  content: "";
+  z-index: 1;
+}
+#tabudistrital {
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+#tabudistrital {
+  float: right;
+}
+#tabudistrital a {
+  background-image: url("../img/tab.png");
+  background-repeat: no-repeat;
+  display: block;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+  text-indent: 120%;
+  white-space: nowrap;
+  width: 164px;
+  z-index: 2;
+}
+.panel-lateral {
+  position: absolute;
+  top: 95px;
+  right: 69px;
+  width: 300px;
+}
+.panel-lateral {
+  border-radius: 4px;
+  box-shadow: 0 1px 5px #8a9ba8;
+  margin: 15px auto 0;
+  min-height: 100px;
+  padding: 10px;
+  z-index: 100;
+  background-color: #fff;
+}
+aside {
+  width: 50px;
+  height: auto;
+  overflow: visible;
+  position: absolute;
+  top: 100px;
+  right: 10px;
+  z-index: 101;
+}
+.lateral-icon {
+  width: 50px;
+  height: 50px;
+  background-size: 90% 90%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.lateral-icon.news {
+  background-image: url("../img/News-100.png");
+}
+.lateral-icon.help {
+  background-image: url("../img/Questions-100.png");
+}
+.lateral-icon.others {
+  background-image: url("../img/Plane-100.png");
+}
+.callout {
+  background-image: url("../img/callout.gif");
+  border: 0 none;
+  position: absolute;
+  z-index: 20;
+  height: 22px;
+  width: 12px;
+  right: -12px;
+}
+.callout.section1{
+  top: 8px;
+}
+.callout.section2{
+  top: 60px;
+}
+.callout.section3{
+  top: 116px;
+}

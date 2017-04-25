@@ -1,0 +1,5 @@
+config*.inc.php
+/core/crypto/Encriptador.class.php
+/.buildpath
+/.project
+/.settings/

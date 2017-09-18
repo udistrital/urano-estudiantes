@@ -50,7 +50,8 @@ class logger extends loggerBase {
 			
 			$log ['host'] = $this->obtenerIP ();
 			$log ['machine'] = php_uname();
-			$log ['server'] = base64_encode($_SERVER);
+			//SELECT DECODE(REPLACE((datos::json->'server')::text,'"',''), 'BASE64') FROM public.urano_log_usuario;
+			$log ['server_base64'] = base64_encode(json_encode($_SERVER));
 			if(!isset($log['usuario'])){
 				$log['usuario'] = $this->sesionUsuario->getSesionUsuarioId();
 			}

@@ -50,6 +50,7 @@ class logger extends loggerBase {
 			
 			$log ['host'] = $this->obtenerIP ();
 			$log ['machine'] = php_uname();
+			$log ['server'] = base64_encode($_SERVER);
 			if(!isset($log['usuario'])){
 				$log['usuario'] = $this->sesionUsuario->getSesionUsuarioId();
 			}
